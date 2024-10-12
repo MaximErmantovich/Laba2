@@ -1,6 +1,6 @@
 package Entity;
 
-class Appointment {
+class Appointment {//запись
     private Client client;
     private IService service;
     private boolean isConfirmed;

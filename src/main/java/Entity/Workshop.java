@@ -5,10 +5,10 @@ import java.util.List;
 
 // Класс для мастерской
 public class Workshop {
-    private IMechanic mechanic;
+    private Mechanic mechanic;
     private List<IService> services;
 
-    public Workshop(IMechanic mechanic) {
+    public Workshop(Mechanic mechanic) {
         this.mechanic = mechanic;
         this.services = new ArrayList<>();
     }
